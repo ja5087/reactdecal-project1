@@ -1,12 +1,16 @@
 import React from "react";
 import "./styles/cart.css";
+import Product from "./Product";
+import Data from "./Data";
 
 class Cart extends React.Component {
 
   render() {
     return (
         <div className="page-content">
-            <h2>Add your products here!</h2>
+            <div className="ui cards">
+              {Data.products.map(x => <Product product={x}/>)}
+            </div>
         </div>
     );
   }

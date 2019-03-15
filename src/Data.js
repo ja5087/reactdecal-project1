@@ -20,6 +20,22 @@ const ProductData = {
             cost: 5.0,
             stock: 0
         },
+        {
+            name: "AirPods",
+            cost: 199.0,
+            stock: 200
+        },
+        {
+            name: "Dank Memes",
+            cost: 420.0,
+            stock: -1
+        },
+        {
+            name: "React Money",
+            cost: 5.0,
+            stock: 100
+        },
+
     ]
 }
 
